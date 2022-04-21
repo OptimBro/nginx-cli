@@ -1,0 +1,13 @@
+export const packageVersions = {
+  NGINX_MAINLINE_VER: '1.21.6',
+  NGINX_STABLE_VER: '1.20.1',
+  LIBRESSL_VER: '3.3.1',
+  OPENSSL_VER: '1.1.1l',
+  NPS_VER: '1.13.35.2',
+  HEADERMOD_VER: '0.33',
+  LIBMAXMINDDB_VER: '1.4.3',
+  GEOIP2_VER: '3.3',
+  LUA_JIT_VER: '2.1-20201229',
+  LUA_NGINX_VER: '0.10.19',
+  NGINX_DEV_KIT: '0.3.1',
+};
