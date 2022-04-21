@@ -80,7 +80,7 @@ import { $ } from './utils/zx';
   if (menuPrompt.option === 2) {
     await $`clear`;
 
-    console.log('Uninstalling Nginx');
+    console.log('Uninstalling Nginx :)');
   }
 
   // 3) Update the script
