@@ -1,0 +1,38 @@
+{
+  "name": "nginx-cli",
+  "version": "1.0.0",
+  "description": "Install Nginx from source with custom module support (for Ubuntu 20.04)",
+  "main": "index.ts",
+  "scripts": {
+    "ts": "sudo ts-node  index.ts"
+  },
+  "os": ["linux"],
+  "keywords": ["nginx"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@open-draft/until": "^2.0.0",
+    "figlet": "^1.5.2",
+    "kleur": "^4.1.4",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2",
+    "which": "^2.0.2"
+  },
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.170",
+    "@swc/helpers": "^0.3.8",
+    "@types/figlet": "^1.5.4",
+    "@types/minimist": "^1.2.2",
+    "@types/prompts": "^2.0.14",
+    "@types/which": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
